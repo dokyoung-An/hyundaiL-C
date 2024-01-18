@@ -14,7 +14,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max pan="360" tilt="90" fov="140" fovfisheye="360" fovstereographic="330" scaletofit="1"/>
     </view>
-    <userdata copyright="" description="용인시 수지구 000로&#xa;000아파트 101동 1001호" title="15일" author="" heading="0" info="" nodeid="node1" longitude="" customnodeid="" tags="1월" latitude="" datetime="2024. 1. 15. 오전 7:37" comment="" source=""/>
+    <userdata copyright="" description="용인시 수지구 000로&#xa;000아파트 101동 1001호" title="15일" author="" heading="0" info="" nodeid="node1" longitude="" customnodeid="" tags="15일|1월" latitude="" datetime="2024. 1. 15. 오전 7:37" comment="" source=""/>
     <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
       <label height="20" backgroundcolor="0xffffff" borderradius="1" width="180" background="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" borderalpha="1" textalpha="1" border="1" enabled="1" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
@@ -38,7 +38,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max pan="360" tilt="90" fov="140" fovfisheye="360" fovstereographic="330" scaletofit="1"/>
     </view>
-    <userdata copyright="" description="용인시 수지구 000로&#xa;000아파트 301동 1001호" title="16일" author="" heading="0" info="" nodeid="node2" longitude="" customnodeid="" tags="1월" latitude="" datetime="2024. 1. 15. 오전 7:29" comment="" source=""/>
+    <userdata copyright="" description="용인시 수지구 000로&#xa;000아파트 301동 1001호" title="16일" author="" heading="0" info="" nodeid="node2" longitude="" customnodeid="" tags="16일|1월" latitude="" datetime="2024. 1. 15. 오전 7:29" comment="" source=""/>
     <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
       <label height="20" backgroundcolor="0xffffff" borderradius="1" width="180" background="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" borderalpha="1" textalpha="1" border="1" enabled="1" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
@@ -62,7 +62,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max pan="360" tilt="90" fov="140" fovfisheye="360" fovstereographic="330" scaletofit="1"/>
     </view>
-    <userdata copyright="" description="수원시 수지구 000로&#xa;000아파트 101동 1001호" title="17일" author="" heading="0" info="" nodeid="node3" longitude="" customnodeid="" tags="1월" latitude="" datetime="2024. 1. 15. 오전 7:35" comment="" source=""/>
+    <userdata copyright="" description="수원시 수지구 000로&#xa;000아파트 101동 1001호" title="17일" author="" heading="0" info="" nodeid="node3" longitude="" customnodeid="" tags="17일|1월" latitude="" datetime="2024. 1. 15. 오전 7:35" comment="" source=""/>
     <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
       <label height="20" backgroundcolor="0xffffff" borderradius="1" width="180" background="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" borderalpha="1" textalpha="1" border="1" enabled="1" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
@@ -86,7 +86,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max pan="360" tilt="90" fov="140" fovfisheye="360" fovstereographic="330" scaletofit="1"/>
     </view>
-    <userdata copyright="" description="구리시 수지구 000로&#xa;000아파트 101동 1001호" title="18일" author="" heading="0" info="" nodeid="node4" longitude="" customnodeid="" tags="1월" latitude="" datetime="2024. 1. 15. 오전 7:36" comment="" source=""/>
+    <userdata copyright="" description="구리시 수지구 000로&#xa;000아파트 101동 1001호" title="18일" author="" heading="0" info="" nodeid="node4" longitude="" customnodeid="" tags="18일|1월" latitude="" datetime="2024. 1. 15. 오전 7:36" comment="" source=""/>
     <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
       <label height="20" backgroundcolor="0xffffff" borderradius="1" width="180" background="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" borderalpha="1" textalpha="1" border="1" enabled="1" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
