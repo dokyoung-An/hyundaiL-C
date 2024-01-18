@@ -1,103 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" appversion="7.0.8" apprev="20017">
+<tour start="node1" apprev="20017" appversion="7.0.8">
   <panorama id="node1">
-    <input height="3600" leveltilesize="510" overlap="1" width="3600" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
-      <level height="3600" width="3600" preload="0" predecode="0"/>
-      <level height="1800" width="1800" preload="0" predecode="0"/>
-      <level height="900" width="900" preload="0" predecode="0"/>
-      <level height="450" width="450" preload="1" predecode="1"/>
+    <input height="3600" levelbias="0.400" overlap="1" width="3600" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000">
+      <level height="3600" predecode="0" width="3600" preload="0"/>
+      <level height="1800" predecode="0" width="1800" preload="0"/>
+      <level height="900" predecode="0" width="900" preload="0"/>
+      <level height="450" predecode="1" width="450" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start pan="0" tilt="0" fov="136.926" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" fov="140" fovfisheye="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" pan="0" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="330" tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360"/>
     </view>
-    <userdata copyright="" description="용인시 수지구 000로&#xa;000아파트 101동 1001호" title="15일" author="" heading="0" info="" nodeid="node1" longitude="" customnodeid="" tags="15일|1월" latitude="" datetime="2024. 1. 15. 오전 7:37" comment="" source=""/>
+    <userdata source="" copyright="" description="용인시 수지구 000로&#xa;000아파트 101동 1001호" longitude="" title="15일" tags="15일|1월" datetime="2024. 1. 15. 오전 7:37" author="" customnodeid="" latitude="" nodeid="node1" heading="0" comment="" info=""/>
     <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label height="20" backgroundcolor="0xffffff" borderradius="1" width="180" background="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" borderalpha="1" textalpha="1" border="1" enabled="1" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <label backgroundalpha="1" textcolor="0x000000" height="20" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" wordwrap="1" background="1" bordercolor="0x000000" border="1" borderradius="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendcolor="0x000000" type="crossdissolve" zoomspeed="2" delay="none" zoomafterinfov="140" zoomoutpause="1" zoomafteroutfov="40" enabled="1" zoomin="0" softedge="0" blendtime="1" zoomout="0"/>
-    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" contextprojections="0" simulatemass="1" lockedwheel="0" zoomcentercursor="1" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedmouse="0" contextvr="1" lockedkeyboard="0" rubberband="0"/>
+    <transition type="crossdissolve" enabled="1" zoomspeed="2" zoomafteroutfov="40" zoomoutpause="1" softedge="0" zoomafterinfov="140" delay="none" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="40"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control zoomcentercursor="1" contextprojections="0" lockedkeyboard="0" hideabout="0" contextvr="1" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" invertcontrol="1" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" sensitivity="8"/>
   </panorama>
   <panorama id="node2">
-    <input height="3600" leveltilesize="510" overlap="1" width="3600" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
-      <level height="3600" width="3600" preload="0" predecode="0"/>
-      <level height="1800" width="1800" preload="0" predecode="0"/>
-      <level height="900" width="900" preload="0" predecode="0"/>
-      <level height="450" width="450" preload="1" predecode="1"/>
+    <input height="3600" levelbias="0.400" overlap="1" width="3600" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000">
+      <level height="3600" predecode="0" width="3600" preload="0"/>
+      <level height="1800" predecode="0" width="1800" preload="0"/>
+      <level height="900" predecode="0" width="900" preload="0"/>
+      <level height="450" predecode="1" width="450" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start pan="0" tilt="0" fov="100" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" fov="140" fovfisheye="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="330" tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360"/>
     </view>
-    <userdata copyright="" description="용인시 수지구 000로&#xa;000아파트 301동 1001호" title="16일" author="" heading="0" info="" nodeid="node2" longitude="" customnodeid="" tags="16일|1월" latitude="" datetime="2024. 1. 15. 오전 7:29" comment="" source=""/>
+    <userdata source="" copyright="" description="용인시 수지구 000로&#xa;000아파트 301동 1001호" longitude="" title="16일" tags="16일|1월" datetime="2024. 1. 15. 오전 7:29" author="" customnodeid="" latitude="" nodeid="node2" heading="0" comment="" info=""/>
     <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label height="20" backgroundcolor="0xffffff" borderradius="1" width="180" background="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" borderalpha="1" textalpha="1" border="1" enabled="1" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <label backgroundalpha="1" textcolor="0x000000" height="20" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" wordwrap="1" background="1" bordercolor="0x000000" border="1" borderradius="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1"/>
     </hotspots>
-    <media/>
-    <transition zoomfov="40" blendcolor="0x000000" type="crossdissolve" zoomspeed="2" delay="none" zoomafterinfov="140" zoomoutpause="1" zoomafteroutfov="40" enabled="1" zoomin="0" softedge="0" blendtime="1" zoomout="0"/>
-    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" contextprojections="0" simulatemass="1" lockedwheel="0" zoomcentercursor="1" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedmouse="0" contextvr="1" lockedkeyboard="0" rubberband="0"/>
+    <media>
+      <image id="Element01" height="64" pan="-0.930" width="64" popbackmode="0" rotx="0.000" handcursor="0" roty="0.000" tilt="-3.320" hidepinned="0" stretch="1.000" clickmode="0" fov="30.000" rotz="0.000">
+        <source url="media/001.png"/>
+      </image>
+    </media>
+    <transition type="crossdissolve" enabled="1" zoomspeed="2" zoomafteroutfov="40" zoomoutpause="1" softedge="0" zoomafterinfov="140" delay="none" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="40"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control zoomcentercursor="1" contextprojections="0" lockedkeyboard="0" hideabout="0" contextvr="1" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" invertcontrol="1" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" sensitivity="8"/>
   </panorama>
   <panorama id="node3">
-    <input height="3600" leveltilesize="510" overlap="1" width="3600" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
-      <level height="3600" width="3600" preload="0" predecode="0"/>
-      <level height="1800" width="1800" preload="0" predecode="0"/>
-      <level height="900" width="900" preload="0" predecode="0"/>
-      <level height="450" width="450" preload="1" predecode="1"/>
+    <input height="3600" levelbias="0.400" overlap="1" width="3600" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000">
+      <level height="3600" predecode="0" width="3600" preload="0"/>
+      <level height="1800" predecode="0" width="1800" preload="0"/>
+      <level height="900" predecode="0" width="900" preload="0"/>
+      <level height="450" predecode="1" width="450" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start pan="0" tilt="0" fov="100" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" fov="140" fovfisheye="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="330" tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360"/>
     </view>
-    <userdata copyright="" description="수원시 수지구 000로&#xa;000아파트 101동 1001호" title="17일" author="" heading="0" info="" nodeid="node3" longitude="" customnodeid="" tags="17일|1월" latitude="" datetime="2024. 1. 15. 오전 7:35" comment="" source=""/>
+    <userdata source="" copyright="" description="수원시 수지구 000로&#xa;000아파트 101동 1001호" longitude="" title="17일" tags="17일|1월" datetime="2024. 1. 15. 오전 7:35" author="" customnodeid="" latitude="" nodeid="node3" heading="0" comment="" info=""/>
     <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label height="20" backgroundcolor="0xffffff" borderradius="1" width="180" background="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" borderalpha="1" textalpha="1" border="1" enabled="1" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <label backgroundalpha="1" textcolor="0x000000" height="20" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" wordwrap="1" background="1" bordercolor="0x000000" border="1" borderradius="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendcolor="0x000000" type="crossdissolve" zoomspeed="2" delay="none" zoomafterinfov="140" zoomoutpause="1" zoomafteroutfov="40" enabled="1" zoomin="0" softedge="0" blendtime="1" zoomout="0"/>
-    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" contextprojections="0" simulatemass="1" lockedwheel="0" zoomcentercursor="1" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedmouse="0" contextvr="1" lockedkeyboard="0" rubberband="0"/>
+    <transition type="crossdissolve" enabled="1" zoomspeed="2" zoomafteroutfov="40" zoomoutpause="1" softedge="0" zoomafterinfov="140" delay="none" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="40"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control zoomcentercursor="1" contextprojections="0" lockedkeyboard="0" hideabout="0" contextvr="1" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" invertcontrol="1" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" sensitivity="8"/>
   </panorama>
   <panorama id="node4">
-    <input height="3600" leveltilesize="510" overlap="1" width="3600" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
-      <level height="3600" width="3600" preload="0" predecode="0"/>
-      <level height="1800" width="1800" preload="0" predecode="0"/>
-      <level height="900" width="900" preload="0" predecode="0"/>
-      <level height="450" width="450" preload="1" predecode="1"/>
+    <input height="3600" levelbias="0.400" overlap="1" width="3600" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000">
+      <level height="3600" predecode="0" width="3600" preload="0"/>
+      <level height="1800" predecode="0" width="1800" preload="0"/>
+      <level height="900" predecode="0" width="900" preload="0"/>
+      <level height="450" predecode="1" width="450" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start pan="0" tilt="0" fov="100" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" fov="140" fovfisheye="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="330" tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360"/>
     </view>
-    <userdata copyright="" description="구리시 수지구 000로&#xa;000아파트 101동 1001호" title="18일" author="" heading="0" info="" nodeid="node4" longitude="" customnodeid="" tags="18일|1월" latitude="" datetime="2024. 1. 15. 오전 7:36" comment="" source=""/>
+    <userdata source="" copyright="" description="구리시 수지구 000로&#xa;000아파트 101동 1001호" longitude="" title="18일" tags="18일|1월" datetime="2024. 1. 15. 오전 7:36" author="" customnodeid="" latitude="" nodeid="node4" heading="0" comment="" info=""/>
     <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label height="20" backgroundcolor="0xffffff" borderradius="1" width="180" background="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" borderalpha="1" textalpha="1" border="1" enabled="1" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <label backgroundalpha="1" textcolor="0x000000" height="20" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" wordwrap="1" background="1" bordercolor="0x000000" border="1" borderradius="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendcolor="0x000000" type="crossdissolve" zoomspeed="2" delay="none" zoomafterinfov="140" zoomoutpause="1" zoomafteroutfov="40" enabled="1" zoomin="0" softedge="0" blendtime="1" zoomout="0"/>
-    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" contextprojections="0" simulatemass="1" lockedwheel="0" zoomcentercursor="1" sensitivity="8" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedmouse="0" contextvr="1" lockedkeyboard="0" rubberband="0"/>
+    <transition type="crossdissolve" enabled="1" zoomspeed="2" zoomafteroutfov="40" zoomoutpause="1" softedge="0" zoomafterinfov="140" delay="none" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="40"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control zoomcentercursor="1" contextprojections="0" lockedkeyboard="0" hideabout="0" contextvr="1" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" invertcontrol="1" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" sensitivity="8"/>
+  </panorama>
+  <panorama id="node5">
+    <input height="3600" levelbias="0.400" overlap="1" width="3600" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000">
+      <level height="3600" predecode="0" width="3600" preload="0"/>
+      <level height="1800" predecode="0" width="1800" preload="0"/>
+      <level height="900" predecode="0" width="900" preload="0"/>
+      <level height="450" predecode="1" width="450" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="-3.06779" pan="172.958" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="330" tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360"/>
+    </view>
+    <userdata source="" copyright="" description="파주시 중구 000로&#xa;000아파트 401동 3001호" longitude="" title="16일" tags="16일" datetime="2024. 1. 15. 오전 7:57" author="" customnodeid="" latitude="" nodeid="node5" heading="0" comment="" info=""/>
+    <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
+      <label backgroundalpha="1" textcolor="0x000000" height="20" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" wordwrap="1" background="1" bordercolor="0x000000" border="1" borderradius="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1"/>
+    </hotspots>
+    <media>
+      <image id="Element01" height="64" pan="-180.850" width="64" popbackmode="0" rotx="0.000" handcursor="0" roty="0.000" tilt="-3.430" hidepinned="0" stretch="1.000" clickmode="0" fov="30.000" rotz="0.000">
+        <source url="media/002.png"/>
+      </image>
+    </media>
+    <transition type="crossdissolve" enabled="1" zoomspeed="2" zoomafteroutfov="40" zoomoutpause="1" softedge="0" zoomafterinfov="140" delay="none" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="40"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control zoomcentercursor="1" contextprojections="0" lockedkeyboard="0" hideabout="0" contextvr="1" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" invertcontrol="1" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" sensitivity="8"/>
+  </panorama>
+  <panorama id="node6">
+    <input height="3600" levelbias="0.400" overlap="1" width="3600" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000">
+      <level height="3600" predecode="0" width="3600" preload="0"/>
+      <level height="1800" predecode="0" width="1800" preload="0"/>
+      <level height="900" predecode="0" width="900" preload="0"/>
+      <level height="450" predecode="1" width="450" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="330" tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360"/>
+    </view>
+    <userdata source="" copyright="" description="수원시 대장동 000로&#xa;000아파트 201동 1301호" longitude="" title="16일" tags="16일" datetime="" author="" customnodeid="" latitude="" nodeid="node6" heading="0" comment="" info=""/>
+    <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
+      <label backgroundalpha="1" textcolor="0x000000" height="20" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" wordwrap="1" background="1" bordercolor="0x000000" border="1" borderradius="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1"/>
+    </hotspots>
+    <media>
+      <image id="Element01" height="64" pan="-352.350" width="64" popbackmode="0" rotx="0.000" handcursor="0" roty="0.000" tilt="-3.010" hidepinned="0" stretch="1.000" clickmode="0" fov="30.000" rotz="0.000">
+        <source url="media/003.png"/>
+      </image>
+    </media>
+    <transition type="crossdissolve" enabled="1" zoomspeed="2" zoomafteroutfov="40" zoomoutpause="1" softedge="0" zoomafterinfov="140" delay="none" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="40"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control zoomcentercursor="1" contextprojections="0" lockedkeyboard="0" hideabout="0" contextvr="1" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" invertcontrol="1" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" sensitivity="8"/>
+  </panorama>
+  <panorama id="node7">
+    <input height="3600" levelbias="0.400" overlap="1" width="3600" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000">
+      <level height="3600" predecode="0" width="3600" preload="0"/>
+      <level height="1800" predecode="0" width="1800" preload="0"/>
+      <level height="900" predecode="0" width="900" preload="0"/>
+      <level height="450" predecode="1" width="450" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="-0.546729" pan="175.028" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="330" tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360"/>
+    </view>
+    <userdata source="" copyright="" description="양주시 중구 000로&#xa;000아파트 301동 4001호" longitude="" title="16일" tags="16일" datetime="2024. 1. 15. 오전 7:58" author="" customnodeid="" latitude="" nodeid="node7" heading="0" comment="" info=""/>
+    <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
+      <label backgroundalpha="1" textcolor="0x000000" height="20" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" wordwrap="1" background="1" bordercolor="0x000000" border="1" borderradius="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1"/>
+    </hotspots>
+    <media>
+      <image id="Element01" height="64" pan="178.610" width="64" popbackmode="0" rotx="0.350" handcursor="0" roty="-3.520" tilt="-0.700" hidepinned="0" stretch="0.984" clickmode="0" fov="30.000" rotz="0.430">
+        <source url="media/004.png"/>
+      </image>
+    </media>
+    <transition type="crossdissolve" enabled="1" zoomspeed="2" zoomafteroutfov="40" zoomoutpause="1" softedge="0" zoomafterinfov="140" delay="none" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomfov="40"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control zoomcentercursor="1" contextprojections="0" lockedkeyboard="0" hideabout="0" contextvr="1" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0" invertcontrol="1" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" sensitivity="8"/>
   </panorama>
   <masternode>
-    <userdata copyright="" tags="" description="" title="" author="" comment=""/>
+    <userdata copyright="" description="" title="" tags="" author="" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
